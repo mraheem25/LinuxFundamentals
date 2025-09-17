@@ -1,4 +1,4 @@
-Distributions
+# Distributions
 
   - Different versions of Linux are know as distributions. We can think of distributions as flavours
   - Each distribution has its own strengths and weaknesses and each is suited to different tasks
