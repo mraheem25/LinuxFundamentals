@@ -12,5 +12,5 @@ The password for the next level is stored in a hidden file in the `inhere` direc
    - Lists contents of current directory including hidden files
 5. `cat ...Hiding-From-You`
    - Prints contents of hidden file
-7. Password - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+6. Password - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
