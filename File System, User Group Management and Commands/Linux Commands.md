@@ -21,7 +21,7 @@
   - `tail` - Prints last 10 lines. To print the last x lines, type `tail -n x`
 
  ## Sudo Command
- `**Sudo**` - **S**uper **U**ser **Do** 
+ **Sudo** - **S**uper **U**ser **Do** 
    - Allows you to execute commands as superuser/rootuser
    - Only permitted users can use sudo
 #### When to use
@@ -30,5 +30,8 @@
    - Updating and/or installing packages: `sudo apt install <package>`
    - Editing system configuration files: `/etc/hosts`, `/etc/passwd`
      - Useful when you need to `vim` into a file that is in the `/etc` folder
+#### Tracking Sudo Activtiy
+  - All sudo commands are logged in `/var/log/auth.log`
+  - To view recent sudo activity, execute the following command `sudo tail /var/log/auth.log`
 
            
