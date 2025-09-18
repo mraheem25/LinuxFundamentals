@@ -9,4 +9,8 @@ The password for the next level is stored somewhere on the server and has all of
 
 ## Solution
 
-1. 
+1. `find -type f -size 33c -user bandit7 -group bandit6`
+   - Using the same construct as in level 5 with the addition of specifying a user and group
+2. `cat /var/lib/dpkg/info/bandit7.password`
+   - Prints the contents of the file
+3. Password - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
