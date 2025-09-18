@@ -1,6 +1,6 @@
 # File Permissions
 
-#### To view the file permissions of your current working directory, execute the command `ls -l` 
+#### Managing file permissions is key for maintaining system security by preventing unauthorised access to restricted files. To view the file permissions of your current working directory, execute the command `ls -l` 
 
 ### Notation (String representation)
  "`-`    $\color{#FF0000}{rwx}$    $\color{#00FF00}{rwx}$    $\color{#0000FF}{rwx}$",  where:
